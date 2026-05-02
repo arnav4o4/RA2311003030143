@@ -96,13 +96,13 @@ export default function Home() {
       </Box>
 
       {loading ? (
-        <Box display="flex" justifyContent="center" mt={10}><CircularProgress /></Box>
+        <Box sx={{ display: 'flex', justifyContent: 'center', mt: 10 }}><CircularProgress /></Box>
       ) : error ? (
         <Alert severity="error" sx={{ mt: 2 }}>{error}</Alert>
       ) : (
         <Box>
           {tab === 1 && (
-            <Box display="flex" gap={2} mb={3} justifyContent="center" alignItems="center">
+            <Box sx={{ display: 'flex', gap: 2, mb: 3, justifyContent: 'center', alignItems: 'center' }}>
               <FormControl size="small" sx={{ minWidth: 150 }}>
                 <InputLabel>Filter by Type</InputLabel>
                 <Select value={filterType} label="Filter by Type" onChange={(e) => setFilterType(e.target.value)}>
