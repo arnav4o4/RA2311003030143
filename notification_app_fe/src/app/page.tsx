@@ -10,7 +10,7 @@ import {
 import axios from 'axios';
 import { Log } from 'logging_middleware';
 
-const NOTIFICATIONS_URL = 'http://20.207.122.201/evaluation-service/notifications';
+const NOTIFICATIONS_URL = '/api/notifications';
 const WEIGHTS = {
   'Placement': 3,
   'Result': 2,
