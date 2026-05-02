@@ -44,3 +44,9 @@ npm run dev
 - **Responsive UI**: Fully optimized for both Desktop and Mobile views.
 - **Centralized Logging**: Every significant event and API call is logged through the custom middleware.
 - **Read/Unread Tracking**: Persistent state management for notification viewing history.
+
+
+
+## Screenshot
+<img width="1257" height="629" alt="image" src="https://github.com/user-attachments/assets/06f97392-74a0-4ab8-b51f-72dadfc3e0a6" />
+
